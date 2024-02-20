@@ -1,0 +1,14 @@
+Existem vários backtests que mostraram a eficiência da metodologia explicada pelo Décio Bazin em seu livro. Apesar de ser uma estratégia focada em adquirir dividendos, as carteiras formadas por essa estratégia tem superado o Ibovespa em larguíssima escala aqui no Brasil durante todos esses anos.
+
+E, olha, eu duvidei que essa estratégia iria dar certo. Como pode escolher tão poucos indicadores (DY e Dívida) fornecer dados suficientes para construir uma carteira próspera? Como pode focar em dividendos estar dando um retorno sobretudo na VALORIZAÇÃO da carteira? Eu pessoalmente não queria acreditar. Acontece que eu mudei de idéia depois de ter feito por mim mesmo backtests na bolsa de valores brasileira e ter quebrado a cara. Sou programador e fiz backtests com dados reais de épocas passadas pegando do site www.fundamentus.com.br
+
+Pessoas diferentes também fizeram backtests e aqui estão os resultados....
+
+1. https://i.imgur.com/qdkmnG4.png
+2. https://i.imgur.com/duKM0mN.png
+
+* Referências
+
+1. https://www.sunoresearch.com.br/artigos/entenda-estrategia-de-decio-bazin/
+2. https://clubedovalor.com.br/blog/decio-bazin/
+3. https://medium.com/@lucastrcalixto/o-m%C3%A9todo-bazin-e-o-progresso-da-bolsa-ccd7ec7a144b
