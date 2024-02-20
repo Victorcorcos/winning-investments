@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.imgur.com/pWOjI9Z.png" alt="Stocks Winner Logo" width="200" height="200"/>
+  <img src="https://i.imgur.com/D7YneT5.png" alt="Winning Investments Logo" width="200" height="200"/>
 </p>
 
-Stocks Winner é um Sistema em Python que aplica as estratégias e técnicas empregadas pelos mais renomados investidores do mundo aqui no mercado de ações brasileiro, visando um rigoroso processo de análise fundamentalista comparativa. 🥋
+Winning Investments é um Sistema em Python que aplica as estratégias e técnicas empregadas pelos mais renomados investidores do mundo aqui no mercado de ações brasileiro, visando um rigoroso processo de análise fundamentalista comparativa. 🥋
 
 Ao eleger uma estratégia, o sistema desencadeia um processo de ranqueamento, revelando as jóias do mercado até as oportunidades menos promissoras, sempre alinhado com a estratégia selecionada do investidor desejado.
 
