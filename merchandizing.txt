@@ -1,0 +1,86 @@
+* Inglês
+
+Winning Investments
+
+Unleashing the Power of Global Investment Strategies in the Brazilian Stock Market 📈
+
+Introducing Winning Investments, a Python-based system that seamlessly applies the proven strategies and techniques employed by the world's most renowned investors to the Brazilian stock market. Our approach revolves around a meticulous process of comparative fundamental analysis, ensuring a thorough examination of potential investment opportunities. 🥋
+
+Why Choose Winning Investments?
+
+• Global Expertise, Local Application: By incorporating the strategies of global financial masters like Benjamin Graham, Joel Greenblatt, Décio Bazin, Joseph D. Piotroski, and Kenneth Fisher, Winning Investments brings the wisdom of the world's top investors to the Brazilian market. This global perspective offers a unique edge in navigating the complexities of local stocks.
+
+• Strategic Ranking System: Upon selecting a strategy, our system initiates a comprehensive ranking process, unveiling market gems while identifying less promising opportunities. This approach aligns seamlessly with the chosen investor's strategy, providing a tailored and efficient investment experience.
+
+• Data Precision: We meticulously capture essential data through various freely available APIs on the vast expanse of the internet. This ensures that our analysis is based on the most accurate and up-to-date information, empowering investors to make well-informed decisions.
+
+• Innovative Strategies: Beyond the renowned investors, Winning Investments introduces innovative strategies, such as identifying Dividend Aristocrats in the Brazilian market. This strategy, previously exclusive to the American stock market, opens up new avenues for investors seeking diverse and lucrative opportunities.
+
+• Extensive Research: The project, authored by me, includes an extensive exploration of specialized literature. This effort aims to identify and incorporate the most promising and effective investment strategies. By doing so, Winning Investments promises to uncover hidden gems in the Brazilian market, providing valuable insights for strategic decision-making. 🙌
+
+In conclusion, Winning Investments is not just a tool; it's a gateway to the collective wisdom of the world's greatest investors, tailored for the Brazilian investor. Make informed decisions, elevate your investment game, and discover the untapped potential in the Brazilian stock market with Winning Investments. 💼 🌐
+
+
+
+* Português (1)
+
+Winning Investments: Desencadeando o Poder das Estratégias Globais de Investimento no Mercado de Ações Brasileiro 📈
+
+Apresentando Winning Investments, um sistema baseado em Python que aplica de maneira eficaz as estratégias comprovadas e técnicas utilizadas pelos investidores mais renomados do mundo no mercado de ações brasileiro. Nossa abordagem gira em torno de um meticuloso processo de análise fundamental comparativa, garantindo uma avaliação minuciosa das potenciais oportunidades de investimento. 🥋
+
+
+Por que Escolher Winning Investments?
+
+1. Expertise Global, Aplicação Local: Ao incorporar as estratégias de mestres financeiros globais como Benjamin Graham, Joel Greenblatt, Décio Bazin, Joseph D. Piotroski e Kenneth Fisher, Winning Investments traz a sabedoria dos maiores investidores do mundo para o mercado brasileiro. Essa perspectiva global oferece uma vantagem única na navegação pelas complexidades das ações locais.
+
+2. Sistema de Classificação Estratégica: Ao selecionar uma estratégia, nosso sistema inicia um abrangente processo de classificação, revelando gemas de mercado enquanto identifica oportunidades menos promissoras. Essa abordagem alinha-se perfeitamente à estratégia do investidor escolhido, proporcionando uma experiência de investimento personalizada e eficiente.
+
+3. Precisão de Dados: Capturamos meticulosamente dados essenciais por meio de várias APIs disponíveis gratuitamente na vasta extensão da internet. Isso garante que nossa análise seja baseada nas informações mais precisas e atualizadas, capacitando os investidores a tomar decisões bem fundamentadas.
+
+4. Estratégias Inovadoras: Além dos investidores renomados, Winning Investments introduz estratégias inovadoras, como a identificação de Dividend Aristocrats no mercado brasileiro. Essa estratégia, anteriormente exclusiva do mercado de ações americano, abre novos caminhos para investidores em busca de oportunidades diversas e lucrativas.
+
+5. Pesquisa Extensiva: O projeto, de minha autoria, inclui uma exploração extensiva de literatura especializada. Esse esforço visa identificar e incorporar as estratégias de investimento mais promissoras e eficazes. Dessa forma, Winning Investments promete descobrir joias escondidas no mercado brasileiro, fornecendo insights valiosos para a tomada de decisões estratégicas. 🙌
+
+Em conclusão, Winning Investments não é apenas uma ferramenta; é um portal para a sabedoria coletiva dos maiores investidores do mundo, adaptado para o investidor brasileiro. Tome decisões informadas, eleve seu jogo de investimento e descubra o potencial inexplorado no mercado de ações brasileiro com Winning Investments. 💼🌐
+
+
+
+
+
+* Português (2)
+
+Oque vocês acham sobre métodos automáticos quantitativos de investimentos em ações?
+
+Estava eu lendo o livro "O Investidor Inteligente", criado pelo mentor principal de Warren Buffet, o Benjamin Graham, que, além de ser o mentor principal do investidor pessoa física mais rico do mundo, é também considerado o papa da estratégia de investimento Value Investing e percebi que várias das suas métricas de avaliações de ações são quantitativas, como por exemplos essas métricas.
+
+1. Sobrevivência: Sobreviveu nos últimos 10 anos. https://www.estrategista.net/o-fracasso-de-benjamin-graham-na-bolsa-atual/
+
+2. Estabilidade dos Lucros: Lucro > 0 nos últimos 10 anos. https://www.estrategista.net/o-fracasso-de-benjamin-graham-na-bolsa-atual/
+
+3. Crescimento dos Lucros: Lucros crescentes nos últimos 10 anos https://www.estrategista.net/o-fracasso-de-benjamin-graham-na-bolsa-atual/
+
+4. Crescimento dos Lucro Por Ação: LPA atual > 1.33 * LPA 10 anos atrás. (Calculado através da média dos 3 anos do começo e dos 3 anos do fim deste período) http://seuguiadeinvestimentos.com.br/a-tecnica-de-investimento-de-benjamin-graham-ii/
+
+5. Estabilidade dos Dividendos: Dividendos pagos nos últimos 10 anos. http://seuguiadeinvestimentos.com.br/a-tecnica-de-investimento-de-benjamin-graham-ii/
+
+6. Preço Justo > 1.5 * Preço de Mercado. Neste caso, Preço Justo é a raíz_quadrada_de(22.5 * VPA * LPA) (Criado por Benjamin Graham) https://www.sunoresearch.com.br/artigos/valor-intrinseco/?utm_source=PR&utm_medium=artigo&utm_campaign=investing_05122019
+
+7. P/L (Preço/Lucro) => Quanto menor, melhor (ideal, < 15 E >= 0) http://seuguiadeinvestimentos.com.br/a-tecnica-de-investimento-de-benjamin-graham-ii/
+
+8. P/VP (Preço/Valor Patrimonial) => Quanto menor, melhor (ideal, < 1.5 E >= 0) http://seuguiadeinvestimentos.com.br/a-tecnica-de-investimento-de-benjamin-graham-ii/
+
+9. Crescimento em 5 anos => Quanto maior, melhor (ideal, > 5%) https://daxinvestimentos.com/analise-fundamentalista-mais-de-200-de-rentabilidade-em-2-anos/
+
+10. ROE (Return On Equity) => Quanto maior, melhor (ideal, superior a 20%) https://daxinvestimentos.com/analise-fundamentalista-mais-de-200-de-rentabilidade-em-2-anos/
+
+11. Dividend Yield (Rendimento de Dividendo) => Quanto maior, melhor (ideal, > Taxa Selic (4.5%)) https://foconomilhao.com/acoes-com-dividend-yield-maior-que-a-selic/
+
+12. Liquidez Corrente => Quanto maior, melhor (ideal > 1.5) https://daxinvestimentos.com/analise-fundamentalista-mais-de-200-de-rentabilidade-em-2-anos/
+
+13. Dívida Bruta/Patrimônio => Quanto menor, melhor (ideal < 50%) https://daxinvestimentos.com/analise-fundamentalista-mais-de-200-de-rentabilidade-em-2-anos/
+
+14. Patrimônio Líquido => Quanto maior, melhor (ideal > 2000000000)
+
+Dito isto, sou programador e estou pensando em criar um sistema que avalia as ações automaticamente com base nessas estratégias, elencando as ações do momento que mais bem se qualificam como ações de valor de acordo com as métricas do Benjamin Graham.
+
+Oque acham?
