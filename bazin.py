@@ -108,6 +108,9 @@ def fill_infos_by_ticker(ticker, opener):
     'healthy_payout': False,
   }
   
+  # Suno disabled it's API access
+  return None
+  
   current_year = year
   
   # Fetching LPA's and DPA's
