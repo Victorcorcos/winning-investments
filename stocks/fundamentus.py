@@ -2130,10 +2130,12 @@ def shares(year = None):
   page = fragment_fromstring(content)
   result = pandas.DataFrame(dataframe_opts(year))
   
+  data_rows = []
   for rows in page.xpath('tbody')[0].findall("tr"):
       new_row = pandas.DataFrame(index=[rows.getchildren()[0][0].getchildren()[0].text],
                                  data=dataframe_data(rows, year))
-      result = result.append(new_row)
+      data_rows.append(new_row)
+  result = pandas.concat(data_rows)
   
   result = result[result['Cotação'] > 0]
 

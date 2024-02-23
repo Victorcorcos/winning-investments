@@ -104,6 +104,9 @@ def fill_infos_by_ticker(ticker, opener):
     'lpa_growth': False,
     'dividends_stability': False
   }
+
+  # Suno disabled it's API access
+  return None
   
   # Fetching Lucro Liquido
   url = f'https://api-analitica.sunoresearch.com.br/api/Statement/GetStatementResultsReportByTicker?type=y&ticker={ticker}&period=999'
@@ -175,12 +178,17 @@ def add_graham_columns(shares):
 # Benjamin Graham elaborou a seguinte fórmula para calcular o Valor Intríseco (Preço Justo (Graham)):
 # => sqrt(22.5 * VPA * LPA)
 def fill_fair_price(shares):
+  shares['Cotação'] = pandas.to_numeric(shares['Cotação'], errors='coerce')
+  shares['P/L'] = pandas.to_numeric(shares['P/L'], errors='coerce')
+  shares['P/VP'] = pandas.to_numeric(shares['P/VP'], errors='coerce')
   for index in range(len(shares)):
     if ((shares['P/L'][index] > 0) & (shares['P/VP'][index] > 0)):
-      shares['Preço Justo (Graham)'][index] = sqrt(Decimal(22.5) * (shares['Cotação'][index] / shares['P/L'][index]) * (shares['Cotação'][index] / shares['P/VP'][index]))
+      shares['Preço Justo (Graham)'][index] = sqrt(22.5 * (shares['Cotação'][index] / shares['P/L'][index]) * (shares['Cotação'][index] / shares['P/VP'][index]))
     else:
       shares['Preço Justo (Graham)'][index] = 0
-  shares['Preço Justo (Graham) / Cotação'] = shares['Preço Justo (Graham)'] / shares['Cotação'] # Ideal > 1. Quanto maior, melhor! Significa que a ação deveria estar valendo 1 vezes mais, 2 vezes mais, 3 vezes mais, etc.
+  shares['Preço Justo (Graham)'] = pandas.to_numeric(shares['Preço Justo (Graham)'], errors='coerce')
+  # Ideal > 1. Quanto maior, melhor! Significa que a ação deveria estar valendo 1 vezes mais, 2 vezes mais, 3 vezes mais, etc.
+  shares['Preço Justo (Graham) / Cotação'] = shares['Preço Justo (Graham)'] / shares['Cotação']
 
 def fill_score(shares):
   shares['Graham Score'] += (shares['Preço Justo (Graham) / Cotação'] > Decimal(1.5)).astype(int)
