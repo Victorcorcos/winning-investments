@@ -295,7 +295,7 @@ No algoritmo, cada ação recebe uma nota que vai de 0 a 21, avaliando se cada u
 
 ## Contact
 
-* [Victor Cordeiro Costa](https://www.linkedin.com/in/victor-costa-0bba7197/)
+* [Victor Cordeiro Costa](https://www.linkedin.com/in/victorcorcos/)
 
 ---
 
