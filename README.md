@@ -293,6 +293,44 @@ No algoritmo, cada ação recebe uma nota que vai de 0 a 21, avaliando se cada u
 - [x] 7. Peg Ratio (P/L / CAGRLucros5Anos) => Quanto menor melhor (ideal <= 1) https://bugg.com.br/2018/01/24/buggpedia-o-que-e-o-peg-ratio/
 
 
+## Repository Organization Structure 📂
+
+The project is organized into several key directories and files:
+
+```
+├── diversified_portfolio/       # Combined strategy implementations
+│   ├── bazin_diversified.py     # Diversified Bazin strategy
+│   ├── graham_diversified.py    # Diversified Graham strategy
+│   └── ...                      # Other diversified strategies
+
+├── mixed_strategies/            # Hybrid investment approaches
+│   ├── all.py                   # All strategies combined
+│   ├── graham_bazin.py          # Graham+Bazin hybrid strategy
+│   └── ...                      # Other strategy combinations
+
+├── strategies/                  # Backtest results and research
+│   ├── benjamin_graham/         # Graham strategy materials
+│   ├── decio_bazin/             # Bazin strategy materials
+│   └── ...                      # Other strategists' materials
+
+├── stocks/                      # Stock data handling
+│   ├── backtest.py              # Backtesting functionality
+│   ├── fundamentus.py           # Fundamental data scraping
+│   └── ...                      # Other stock utilities
+
+├── utils/                       # Helper utilities
+│   ├── browser.py               # Browser interaction
+│   └── waitingbar.py            # Progress indicators
+
+├── server/                      # Web interface
+│   └── server.py                # Flask web server
+
+├── *.py                         # Main strategy implementations
+│   (graham.py, bazin.py, etc)
+
+└── README.md                    # Project documentation
+```
+
 ## Contact
 
 * [Victor Cordeiro Costa](https://www.linkedin.com/in/victorcorcos/)
