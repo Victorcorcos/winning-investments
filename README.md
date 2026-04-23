@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/D7YneT5.png" alt="Winning Investments Logo" width="40%" />
+  <img src="https://i.imgur.com/WWJoETE.png" alt="Winning Investments Logo" width="40%" />
 </p>
 
 Winning Investments é um Sistema em Python que aplica as estratégias e técnicas empregadas pelos mais renomados investidores do mundo aqui no mercado de ações brasileiro, visando um rigoroso processo de análise fundamentalista comparativa. 🥋
